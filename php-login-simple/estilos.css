@@ -1,0 +1,171 @@
+
+.nav{
+    position: fixed;
+    display: flex;
+}
+.list-group{
+    position:fixed; 
+}
+.rounded{
+    width: 10%;
+    height: 10%;
+    position: relative;
+}
+@font-face {
+    font-family: Sanchez;
+    src: url(Sanchezregular.otf);
+ }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sanchez;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    font-family: Sanchez;
+}
+body{
+    margin-left:20%;
+    background-color:rgb(255, 255, 255) ;
+}
+.navbar-brand{
+    color: rgb(235, 0, 0);
+}
+.form-search{
+    width: 90px;
+    height: 40px;
+    justify-content: right;
+    align-items: right;
+    color: rgb(156, 9, 9);
+}
+.form-search ::placeholder{
+    color: rgb(83, 40, 40);
+}
+.option-menu{
+    cursor: pointer;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    justify-content: left;
+    align-items: left;
+    background-color: #1c6b6b;
+    z-index: 300;
+    top:0;
+    left:0;
+    font-family: Sanchez;
+    text-align: center;
+}
+.option-menu a{
+    color: #66ff00;
+    display: block;
+    position: relative;
+    height: 10%;
+}
+.option-menu a:hover{
+    font-weight: bold;
+    color: #813c3c;
+}
+.menu-1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10;
+    left:0;
+    font-family: Sanchez;
+    text-align: center;
+}
+.list-group-item{
+    background-color: #21238b;
+    top:0;
+    left:0;
+    font-family: Sanchez;
+}
+.btn{
+    background-color: #77c494;
+}
+.back-b{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.form-Edit{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 3%;
+    font-family: Sanchez;
+}
+.form-control{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.Search{
+    width: 500px;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    color: whitesmoke;
+}
+.datos{
+    margin-left: 400px;
+    position: absolute;
+    color: rgb(112, 13, 13);
+    justify-content: center;
+}
+.navbar {
+    color: rgb(165, 116, 116);
+}
+.b-edit{
+    position: absolute;
+    align-self: center;
+    margin-top: 25%;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+.b-ed{
+    position: absolute;
+    align-self: center;
+    bottom: 10px;
+    margin-left: 30%;
+}
+.Barra{
+    width: 700px;
+    position: absolute;
+    align-self: center;
+    margin-left: 20%;
+}
+.form-check{
+    margin-left: 10%;
+    margin-bottom: 4%;
+    color: rgb(84, 177, 65);
+}
+.subtitulo{
+    margin-left: 500px;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    color: rgb(103, 158, 172);
+}
+.card{
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.card-body{
+    border-radius: 15px;
+    width: 400px;
+    background-color: #616161;
+    color: rgb(255, 169, 169);
+}
+.b-ok{
+    margin-left: 40%;
+}
